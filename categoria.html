@@ -11,58 +11,54 @@
             
         }
 
+        h1{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 45px;
+        }
+
        main{
         width: 700px;
         height: 500px;
-        background-color: black;
+        background-image: url(imagem/Fundo\ Pricipal.jpg);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
         margin: auto;
         max-width: 50%;
         height: 500px;
-       border-radius: 3px;
+        border-radius: 3px;
        }    
 
        main >nav{
         text-align: center;
-        padding-top: 230px;
+        padding-top: 200px;
         
        }
 
        main >nav >a{
-        color: white;
-        text-decoration: none;
-        padding: 20px;
-        background: linear-gradient(to top,yellow,red);
-        background-attachment: scroll;
-        font-size: 22px;
-        margin: 20px;
-        border-radius: 3px;
-        max-width: 30%;
-        height: 30%;
-       }
-
-       main >nav >a:hover{
-        color: black;
-        transition: 1.5s;
-       }
-
-       h1{
-        text-align: center;
-        font-size: 56px;
-       }
-
-       #volta{
-        background-color: aliceblue;
         padding: 10px;
+        color: black;
         text-decoration: none;
-        width: 50px;
-        border-radius: 3px;
-        text-align: center;
-        position: fixed;
+        background: linear-gradient(to top,yellow,red);
+        background-attachment: fixed;
+        display: block;
+        width: 100px;
+        margin: auto;
+        font-size: 22px;
+      }
+
+      main >nav >a:hover{
+        color: red;
+        transition: 1.5s;
+      }
+
+       #volta {
+        padding: 10px;
+        background-color: white;
+        width: 30px;
        }
 
        #volta >a{
         text-decoration: none;
-        color: black;
        }
     </style>
 </head>
@@ -76,9 +72,9 @@
     
     <main>
         <nav>
-            <a href="#">Ação</a>
-            <a href="#">Series</a>
-            <a href="tv.html">TV</a>
+            <a href="filmes.html">Ação</a><br>
+            <a href="#">Series</a><br>
+            <a href="#">Novelas</a>
         </nav>
     </main>
 </body>
