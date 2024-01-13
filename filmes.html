@@ -11,6 +11,7 @@
         }
 
         main >h2{
+                color: yellow;
                 text-align: center;
                 font-size: 42px;
                 font-family: Arial, Helvetica, sans-serif;
@@ -34,47 +35,34 @@
             margin-bottom: 20px;
         }
 
-        div{
-            background-color: black;
-            width: 300px;
-            text-align: center;
+        div >a >img{
+            display: block;
             margin: auto;
 
         }
 
-        div >a{
-            padding: 10px;
-            font-size: 22px;
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
+        nav{
+            margin-top: 30px;
+            border-radius: 4px;
         }
-
-        div >a:hover{
-            color: red;
-            transition: 1.5s;
-        }
-
-        div{
+        
+        nav >a{
             padding: 10px;
             background-color: white;
-            width: 200px;
-            background-attachment: fixed;
-        }
-
-        div#volta >a{
             text-decoration: none;
             color: black;
         }
+        
+
+        
     </style>
 </head>
 <body>
-    <header>
-
-    </header>
-
-    <div id="volta">
+    <nav>
         <a href="categoria.html">Volta</a>
-    </div>
+    </nav>
+
+    
 
     <main>
         <h2>A fuga das galinhas 2</h2>
@@ -83,7 +71,9 @@
     </main>
 
     <div>
-        <a href="fuga.html">ASSISTIR</a>
+        <a href="fuga.html">
+            <img src="imagem/assistir.png" alt="capa">
+        </a>
     </div>
 </body>
 </html>
