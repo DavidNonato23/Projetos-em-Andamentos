@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categoria</title>
     <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+
         body{
-            background: linear-gradient(to top, yellow,red);
+            background: linear-gradient(to top, red,black);
             background-attachment: fixed;
             
+            height: 30%;
         }
 
         img{
@@ -19,38 +25,35 @@
         }
 
        main{
-        width: 700px;
-        height: 500px;
-        background-image: url(imagem/Fundo\ Pricipal.jpg);
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+        background-image: url(imagem/fundo\ 2-900.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        height: 70vh;
+        width: 100%;
         margin: auto;
-        max-width: 50%;
-        height: 500px;
-        border-radius: 3px;
-       }    
-
-       main >nav{
+       }  
+       
+       div {
         text-align: center;
-        padding-top: 200px;
         
        }
 
-       main >nav >a{
-        padding: 10px;
-        color: black;
-        text-decoration: none;
-        background: linear-gradient(to top,yellow,red);
-        background-attachment: fixed;
-        display: block;
-        width: 100px;
-        margin: auto;
-        font-size: 22px;
-      }
+       div >nav{
+        display: inline-block;
+        padding-top: 1a0%;
+       }
 
-      main >nav >a:hover{
-        color: red;
-        transition: 1.5s;
-      }
+       div >nav >a{
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        background-color: black;
+        border-radius: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+       }
 
        #volta {
         padding: 10px;
@@ -73,12 +76,17 @@
 
     <img src="imagem/Categoria.png" alt="categoria">
     
-    <main>
-        <nav>
-            <a href="filmes.html">Ação</a><br>
-            <a href="#">Series</a><br>
-            <a href="#">Novelas</a>
-        </nav>
-    </main>
+    <div>
+       <nav>
+        <a href="fuga.html">Aventura</a>
+       </nav>
+
+       <nav>
+        <a href="#">Terro</a>
+       </nav>
+       <nav>
+        <a href="#">Romance</a>
+       </nav>
+    </div>
 </body>
 </html>
